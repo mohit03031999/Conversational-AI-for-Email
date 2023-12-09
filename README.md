@@ -1,11 +1,11 @@
-Email Conversation Response Generator
+**Email Conversation Response Generator**
 
 This project focuses on processing email conversations and generating a
 comprehensive response based on the extracted information. It utilizes
 the Gmail API for accessing email data and the OpenAI API for generating
 the response.
 
-Features
+**Features**
 
 -   Access and Process Emails: Fetches emails from the latest thread in
     your Gmail inbox.
@@ -22,7 +22,7 @@ Features
 -   Generate Response with OpenAI: Leverages OpenAI\'s capabilities to
     create a comprehensive response based on the combined summaries.
 
-Requirements
+**Requirements**
 
 -   Python 3.x
 
@@ -30,7 +30,7 @@ Requirements
 
 -   OpenAI API key
 
-Installation
+**Installation**
 
 1.  Install Dependencies:
 
@@ -54,7 +54,7 @@ Installation
     -   Store the key securely and update the relevant section of the
         script.
 
-Usage
+**Usage**
 
 1.  Run the script (python app.py).
 
@@ -63,12 +63,12 @@ Usage
 3.  A comprehensive response based on the conversation will be generated
     and printed to the console.
 
-Contributing
+**Contributing**
 
 Feel free to contribute to this project! Fork the repository, make your
 changes, and submit a pull request.
 
-Future Development
+**Future Development**
 
 -   Support for additional email providers.
 
