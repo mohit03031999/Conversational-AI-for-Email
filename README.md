@@ -1,4 +1,4 @@
-**Email Conversation Response Generator**
+**Conversational-AI-for-Email**
 
 This project focuses on processing email conversations and generating a
 comprehensive response based on the extracted information. It utilizes
