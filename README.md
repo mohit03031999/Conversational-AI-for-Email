@@ -1,11 +1,13 @@
 **Conversational-AI-for-Email**
 
+## Overview
+
 This project focuses on processing email conversations and generating a
 comprehensive response based on the extracted information. It utilizes
 the Gmail API for accessing email data and the OpenAI API for generating
 the response.
 
-**Features**
+## Key Features
 
 -   Access and Process Emails: Fetches emails from the latest thread in
     your Gmail inbox.
@@ -32,14 +34,20 @@ the response.
 
 **Installation**
 
-1.  Install Dependencies:
+1. **Install Dependencies**
+   - Navigate to the project directory:
+     ```
+     cd [project_directory]
+     ```
+   - Run the following command to install project dependencies:
+     ```
+     pip install  google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
+     ```
 
-2.  pip install  google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
-
-3.  pip install openai -t .
-
-4.  Configure Gmail API:
-
+     ```
+     pip install openai -t
+     ```
+2. **Configure Gmail API**
     -   Create a Google Cloud Platform project and enable the Gmail API.
 
     -   Download the JSON credentials file and store it securely.
@@ -47,7 +55,7 @@ the response.
     -   Set the environment variable GOOGLE_APPLICATION_CREDENTIALS to
         point to the downloaded file.
 
-5.  Set OpenAI API Key:
+3.. **Set OpenAI API Key**
 
     -   Create an OpenAI account and obtain your API key.
 
@@ -62,11 +70,6 @@ the response.
 
 3.  A comprehensive response based on the conversation will be generated
     and printed to the console.
-
-**Contributing**
-
-Feel free to contribute to this project! Fork the repository, make your
-changes, and submit a pull request.
 
 **Future Development**
 
